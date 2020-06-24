@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+<link rel="icon" type="image/png" href="{{ asset('images/icon.png') }}" />
     <title>@yield('title')</title>
 
     <!-- CSRF Token -->
@@ -45,9 +45,9 @@
 			<div class="wrap-login100 shadow-lg">
 				<form class="login100-form validate-form">
 
-					<div class="login100-form-title p-t-27 d-block">
-						Ocaja Technologies
-					</div>
+                    <div class="text-center">
+                        <img src="{{ asset('images/o-logo.png') }}" alt="logo" class="img-fluid img-logo">
+                    </div>
 
 					<div class="login100-form-sub-title">
 						@yield('subHeader')
